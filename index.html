@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>もちや屋｜夏にたべたい和菓子特集</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <picture>
+          <source srcset="images/logo.webp" type="images/webp" />
+          <img src="images/logo.png" width="44" height="36" alt="logo"/>
+        </picture>
+        <p>もちや屋</p>
+      </div>
+      <nav>
+        <ul>
+          <li>ホーム</li>
+          <li>お品書き</li>
+          <li>店舗案内</li>
+          <li>お知らせ</li>
+          <li>採用情報</li>
+          <li>お取り寄せ</li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- ヒーローイメージ -->
+    <section class="hero">
+      <picture id="slideshow">
+        <source id="slideshow-webp" srcset="images/topimg1.webp" type="image/webp" />
+        <img id="slideshow-img" src="images/topimg1.png" width="1728" height="933" alt="夏の和菓子特集メインビジュアル"/>
+      </picture>
+      <div>
+        <picture>
+            <source srcset="images/titlelogo.webp" type="image/webp" />
+            <img src="images/titlelogo.png" width="365" height="386" alt="titlelogo"/>
+          </picture>
+      </div>
+      <div class="dots" id="slideshow-dots"></div>
+    </section>
+
+    <!-- タイトル説明文 -->
+    <section class="messages">
+      <h1>夏にたべたい和菓子特集</h1>
+      <div class="message">涼を味わう　夏の和菓子</div>
+      <div class="message">ひとくちで　夏がすっとほどける</div>
+      <div class="message">涼菓のひととき　心ほどける夏時間</div>
+      <div class="message">冷たくて　和の涼　召し上がれ</div>
+      <div class="message">ひと夏の涼味　伝統の甘さ</div>
+    </section>
+
+    <!-- プロダクト -->
+    <section class="product">
+      <div class="product-slider">
+        <button class="arrow left" aria-label="前へ">←</button>
+        <div class="product-track-wrapper">
+          <ul class="product-track" id="product-track">
+            <li><picture><source srcset="images/product1.webp" type="image/webp" /><img src="images/product1.png" alt="product1" /></picture></li>
+            <li><picture><source srcset="images/product2.webp" type="image/webp" /><img src="images/product2.png" alt="product2" /></picture></li>
+            <li><picture><source srcset="images/product3.webp" type="image/webp" /><img src="images/product3.png" alt="product3" /></picture></li>
+            <li><picture><source srcset="images/product4.webp" type="image/webp" /><img src="images/product4.png" alt="product4" /></picture></li>
+            <li><picture><source srcset="images/product5.webp" type="image/webp" /><img src="images/product5.png" alt="product5" /></picture></li>
+            <li><picture><source srcset="images/product6.webp" type="image/webp" /><img src="images/product6.png" alt="product6" /></picture></li>
+            <li><picture><source srcset="images/product7.webp" type="image/webp" /><img src="images/product7.png" alt="product7" /></picture></li>
+            <li><picture><source srcset="images/product8.webp" type="image/webp" /><img src="images/product8.png" alt="product8" /></picture></li>
+          </ul>
+        </div>
+        <button class="arrow right" aria-label="次へ">→</button>
+      </div>
+    </section>
+    <p class="more-button"><a href>もっと見る</a></p>
+    <!-- お品書き -->
+    <section class="oshina">
+      <h2 class="vertical-title">お品書き</h2>
+      <ul>
+        <li>
+          <div class="oshina-item">
+            <picture>
+              <source srcset="images/oshina1.webp" type="image/webp" />
+              <img src="images/oshina1.png" alt="焼き菓子"/>
+            </picture>
+            <div class="oshina-label">焼き菓子</div>
+          </div>
+        </li>
+        <li>
+          <div class="oshina-item">
+            <picture>
+              <source srcset="images/oshina2.webp" type="image/webp" />
+              <img src="images/oshina2.png" alt="生菓子"/>
+            </picture>
+            <div class="oshina-label">生菓子</div>
+          </div>
+        </li>
+        <li>
+          <div class="oshina-item">
+            <picture>
+              <source srcset="images/oshina3.webp" type="image/webp" />
+              <img src="images/oshina3.png" alt="洋菓子"/>
+            </picture>
+            <div class="oshina-label">洋菓子</div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <p class="more-button"><a href>もっと見る</a></p>
+
+    <!-- お知らせ -->
+    <section class="notice-section">
+      <h3 class="vertical-title">お知らせ</h3>
+      <div class="notice">
+        <p>2025.07.29　価格改定のお願い　平素は格別のお引き立てを賜り、ありがとうございます。</p>
+        <p>2025.03.16　LINE公式アカウント開始いたしました。</p>
+        <p>2024.01.20　一月に入り、大雪が続いて雪かきが大変です( ́・ω・`)</p>
+      </div>
+      <p class="more-button"><a href>もっと見る</a></p>
+    </section>
+
+    <!-- インフォ -->
+    <section class="info">
+      <div class="info-title">お問い合わせ</div>
+      <div class="info-body">
+        <p class="tel">0120-3243-1005</p>
+        <p class="mail">
+          <a href="#">メールでのお問い合わせはこちらから</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+      <div class="footer-logo">
+      <picture>
+          <source srcset="images/footerlogo.webp" type="image/webp" />
+          <img src="images/footerlogo.png" width="252" height="57" alt="logo"/>
+      </picture>
+      </div>
+      <div class="footer-content">
+        <address>
+          〒923-0033<br>盛岡県三条市杜王町1丁目1-13<br>
+          <samp>[map]</samp><br>
+          TEL.0120-3243-1005
+        </address>
+        <div>
+          <ul>
+            <li>ホーム</li>
+            <li>お品書き</li>
+            <li>店舗案内</li>
+            <li>お知らせ</li>
+            <li>採用情報</li>
+            <li>お取り寄せ</li>
+          </ul>
+        </div>
+      </div>
+      <small>Copyright 2025 Mochiyaya</small>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
